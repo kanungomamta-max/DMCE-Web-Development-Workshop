@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DMCE EventHub | Day 2 CSS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-content">
+    <div class="logo"><strong>DMCE</strong> EventHub</div>
+    <nav>
+      <a href="#home">Home</a><a href="#destinations">Destinations</a>
+      <a href="#events">Events</a><a href="#register">Register</a>
+    </nav>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">DISCOVER • EXPLORE • EXPERIENCE</p>
+    <h1>Explore the <span>Exotic India</span></h1>
+    <p>Discover breathtaking destinations and unforgettable experiences.</p>
+    <a class="btn primary" href="#destinations">Explore Destinations</a>
+    <a class="btn secondary" href="#events">View Events</a>
+  </div>
+</section>
+
+<section id="destinations" class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">PLACES TO EXPLORE</p>
+      <h2>Discover Incredible Destinations</h2>
+      <p>CSS transforms the HTML structure into a visual experience.</p>
+    </div>
+
+    <div class="destination-grid">
+      <article class="card"><img src="images/goa.svg" alt="Goa"><div class="card-body"><span>BEACH</span><h3>Goa</h3><p>Relax on beaches and explore coastal culture.</p><a href="#register">Explore →</a></div></article>
+      <article class="card"><img src="images/ladakh.svg" alt="Ladakh"><div class="card-body"><span>MOUNTAINS</span><h3>Ladakh</h3><p>Discover mountains, monasteries and adventure.</p><a href="#register">Explore →</a></div></article>
+      <article class="card"><img src="images/kerala.svg" alt="Kerala"><div class="card-body"><span>NATURE</span><h3>Kerala</h3><p>Experience backwaters and lush greenery.</p><a href="#register">Explore →</a></div></article>
+      <article class="card"><img src="images/rajasthan.svg" alt="Rajasthan"><div class="card-body"><span>HERITAGE</span><h3>Rajasthan</h3><p>Explore forts, palaces and heritage.</p><a href="#register">Explore →</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="events" class="section events">
+  <div class="container">
+    <div class="section-heading"><p class="eyebrow">UPCOMING EXPERIENCES</p><h2>Featured Events</h2></div>
+    <div class="event-grid">
+      <div class="event"><strong>15<br><small>OCT</small></strong><div><h3>Beach Escape</h3><p>Goa • Adventure</p></div></div>
+      <div class="event"><strong>25<br><small>OCT</small></strong><div><h3>Mountain Explorer</h3><p>Ladakh • Adventure</p></div></div>
+      <div class="event"><strong>05<br><small>NOV</small></strong><div><h3>Backwater Experience</h3><p>Kerala • Nature</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="register" class="section register">
+  <div class="container register-box">
+    <div><p class="eyebrow">JOIN THE EXPERIENCE</p><h2>Plan Your Next Adventure</h2><p>Responsive layout, spacing and form styling are handled with CSS.</p></div>
+    <form>
+      <label>Full Name<input type="text" placeholder="Enter your name"></label>
+      <label>Email<input type="email" placeholder="Enter your email"></label>
+      <label>Destination<select><option>Select Destination</option><option>Goa</option><option>Ladakh</option><option>Kerala</option><option>Rajasthan</option></select></label>
+      <button class="btn primary" type="submit">Register Interest</button>
+    </form>
+  </div>
+</section>
+
+<footer><p>© 2026 DMCE EventHub | Day 2 CSS Demo</p></footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DMCE Web Development Workshop | Day 3 JavaScript Demo by trainer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="container header"><h1>DMCE Web Development Workshop</h1><nav><a href="#explorer">Explorer</a><a href="#register">Register</a></nav></div></header>
+
+<main>
+<section class="hero"><div class="container"><p class="eyebrow">DAY 3 • JAVASCRIPT & INTERACTIVITY</p><h2>Interactive Destination Explorer</h2><p>Search, filter, inspect details and submit a registration form.</p></div></section>
+
+<section id="explorer" class="container section">
+  <div class="controls">
+    <input id="searchInput" type="search" placeholder="Search destinations...">
+    <select id="categoryFilter">
+      <option value="all">All categories</option>
+      <option value="beach">Beach</option>
+      <option value="mountains">Mountains</option>
+      <option value="nature">Nature</option>
+      <option value="heritage">Heritage</option>
+    </select>
+  </div>
+
+  <p id="resultCount"></p>
+  <div id="destinationGrid" class="grid"></div>
+</section>
+
+<section id="register" class="section alt">
+  <div class="container">
+    <h2>Register Your Interest</h2>
+    <form id="registrationForm" class="form">
+      <label>Name<input id="name" required></label>
+      <label>Email<input id="email" type="email" required></label>
+      <label>Destination<select id="destination" required><option value="">Choose one</option><option>Goa</option><option>Ladakh</option><option>Kerala</option><option>Rajasthan</option></select></label>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage" class="message"></p>
+  </div>
+</section>
+</main>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-card">
+    <button id="closeModal" class="close">×</button>
+    <h2 id="modalTitle"></h2>
+    <p id="modalText"></p>
+  </div>
+</div>
+
+<footer><p>© 2026 DMCE Web Development Workshop | Day 3 JavaScript Demo</p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>

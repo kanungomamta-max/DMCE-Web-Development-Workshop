@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f3e3d5"/>
+  <circle cx="650" cy="110" r="65" fill="#ffffff" opacity=".7"/>
+  <path d="M0 380 Q160 270 320 370 T800 330 V500 H0Z" fill="#ffffff" opacity=".75"/>
+  <text x="400" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#263238">RAJASTHAN</text>
+  <text x="400" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#455a64">Heritage Journey</text>
+</svg>

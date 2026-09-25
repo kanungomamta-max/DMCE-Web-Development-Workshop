@@ -1,0 +1,48 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#263238;background:#faf9f6}
+img{width:100%;display:block}
+a{text-decoration:none;color:inherit}
+.container{width:90%;max-width:1200px;margin:auto}
+.section{padding:80px 0}
+.site-header{background:white;border-bottom:1px solid #e5e5e5;position:sticky;top:0;z-index:10}
+.header-content{min-height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:23px}
+nav{display:flex;gap:26px;flex-wrap:wrap}
+nav a{font-weight:600}
+nav a:hover{opacity:.6}
+.hero{min-height:570px;display:flex;align-items:center;text-align:center;background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url("../images/rajasthan.svg") center/cover}
+.hero-content{width:90%;max-width:800px;margin:auto;color:white}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:2px;margin-bottom:10px}
+.hero h1{font-size:62px;line-height:1.1;margin-bottom:20px}
+.hero h1 span{display:block}
+.hero p{font-size:18px;margin-bottom:28px}
+.btn{display:inline-block;padding:12px 22px;border-radius:5px;font-weight:700;margin:5px;border:0;cursor:pointer}
+.primary{background:#263238;color:white}
+.secondary{background:white;color:#263238}
+.section-heading{text-align:center;max-width:720px;margin:0 auto 40px}
+.section-heading h2{font-size:38px;margin-bottom:10px}
+.destination-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.card{background:white;border-radius:10px;overflow:hidden;box-shadow:0 5px 20px rgba(0,0,0,.08);transition:.3s}
+.card:hover{transform:translateY(-6px)}
+.card img{height:220px;object-fit:cover}
+.card-body{padding:20px}
+.card-body span{font-size:11px;font-weight:700;letter-spacing:1px}
+.card-body h3{font-size:24px;margin:7px 0}
+.card-body p{color:#65727a;margin-bottom:14px}
+.card-body a{font-weight:700}
+.events{background:white}
+.event-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.event{display:flex;gap:18px;align-items:center;border:1px solid #ddd;border-radius:8px;padding:22px}
+.event>strong{font-size:28px;line-height:1.1;border-right:1px solid #ddd;padding-right:18px}
+.event small{font-size:11px}
+.event p{color:#65727a}
+.register{background:#eef1ef}
+.register-box{background:white;padding:45px;border-radius:10px;display:grid;grid-template-columns:1fr 1fr;gap:50px}
+.register-box h2{font-size:36px;margin-bottom:12px}
+form{display:flex;flex-direction:column;gap:15px}
+label{font-weight:600;font-size:14px}
+input,select{display:block;width:100%;margin-top:6px;padding:12px;border:1px solid #ccc;border-radius:5px;font-size:15px}
+footer{background:#263238;color:white;text-align:center;padding:28px}
+@media(max-width:900px){.destination-grid{grid-template-columns:repeat(2,1fr)}.event-grid,.register-box{grid-template-columns:1fr}.hero h1{font-size:50px}}
+@media(max-width:600px){.header-content{flex-direction:column;padding:15px 0;gap:12px}.destination-grid{grid-template-columns:1fr}.hero h1{font-size:40px}.hero{min-height:500px}.register-box{padding:28px 20px}.section{padding:55px 0}}

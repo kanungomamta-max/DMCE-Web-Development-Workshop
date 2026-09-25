@@ -1,0 +1,6 @@
+[
+  {"id":1,"name":"Beach Escape","destination":"Goa","category":"Beach","date":"2026-10-15","price":4500,"image":"images/goa.svg","description":"A sample coastal experience."},
+  {"id":2,"name":"Mountain Explorer","destination":"Ladakh","category":"Mountains","date":"2026-10-25","price":7500,"image":"images/ladakh.svg","description":"A sample mountain adventure."},
+  {"id":3,"name":"Backwater Experience","destination":"Kerala","category":"Nature","date":"2026-11-05","price":5200,"image":"images/kerala.svg","description":"A sample backwater experience."},
+  {"id":4,"name":"Heritage Journey","destination":"Rajasthan","category":"Heritage","date":"2026-11-15","price":6000,"image":"images/rajasthan.svg","description":"A sample heritage exploration."}
+]

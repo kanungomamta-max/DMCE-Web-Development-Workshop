@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DMCE EventHub | Day 1 HTML</title>
+</head>
+<body>
+  <header>
+    <h1>DMCE EventHub</h1>
+    <p>Explore the Exotic Places of India</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a> |
+    <a href="#destinations">Destinations</a> |
+    <a href="#events">Events</a> |
+    <a href="#register">Register</a>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Discover India</h2>
+      <p>Discover destinations, experiences, culture and adventure across India.</p>
+      <img src="images/goa.svg" alt="Illustration representing Goa">
+    </section>
+
+    <section id="destinations">
+      <h2>Featured Destinations</h2>
+
+      <article>
+        <h3>Goa</h3>
+        <img src="images/goa.svg" alt="Goa destination illustration" width="300">
+        <p>Beaches, heritage and vibrant coastal culture.</p>
+      </article>
+
+      <article>
+        <h3>Ladakh</h3>
+        <img src="images/ladakh.svg" alt="Ladakh destination illustration" width="300">
+        <p>Mountains, monasteries and adventure.</p>
+      </article>
+
+      <article>
+        <h3>Kerala</h3>
+        <img src="images/kerala.svg" alt="Kerala destination illustration" width="300">
+        <p>Backwaters, greenery and rich traditions.</p>
+      </article>
+
+      <article>
+        <h3>Rajasthan</h3>
+        <img src="images/rajasthan.svg" alt="Rajasthan destination illustration" width="300">
+        <p>Forts, palaces and colourful heritage.</p>
+      </article>
+    </section>
+
+    <section id="events">
+      <h2>Upcoming Events</h2>
+      <table border="1">
+        <thead>
+          <tr><th>Event</th><th>Destination</th><th>Date</th><th>Category</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Beach Escape</td><td>Goa</td><td>15 October</td><td>Adventure</td></tr>
+          <tr><td>Mountain Explorer</td><td>Ladakh</td><td>25 October</td><td>Adventure</td></tr>
+          <tr><td>Backwater Experience</td><td>Kerala</td><td>5 November</td><td>Nature</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Things to Explore</h2>
+      <ul>
+        <li>Adventure</li><li>Nature</li><li>Heritage</li><li>Culture</li><li>Food</li>
+      </ul>
+    </section>
+
+    <section id="register">
+      <h2>Register Your Interest</h2>
+      <form>
+        <p><label for="name">Full Name:</label> <input id="name" type="text" required></p>
+        <p><label for="email">Email:</label> <input id="email" type="email" required></p>
+        <p>
+          <label for="destination">Destination:</label>
+          <select id="destination">
+            <option>Goa</option><option>Ladakh</option><option>Kerala</option><option>Rajasthan</option>
+          </select>
+        </p>
+        <p><label for="date">Preferred Date:</label> <input id="date" type="date"></p>
+        <button type="submit">Submit Registration</button>
+      </form>
+    </section>
+  </main>
+
+  <footer><p>© 2026 DMCE EventHub | Day 1 HTML Demo</p></footer>
+</body>
+</html>
